@@ -2,7 +2,6 @@ const videoElement = document.getElementById('video');
 const button = document.getElementById('button');
 
 // Promt to select media stream, pass to video element, than display
-
 async function selectMediaStream() {
   try {
     const mediaStream = await navigator.mediaDevices.getDisplayMedia();
